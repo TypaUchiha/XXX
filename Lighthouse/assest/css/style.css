@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFFBFB;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background: url(../img/bg.png) center / cover no-repeat;
+    height: 100vh;
+}
+
+.btn {
+    background: none;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1517px;
+    width: 100%;
+    height: 33px;
+    padding-top: 50px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__menu{
+    display: flex;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+    
+    .header__menu-item:not(:first-child){
+    margin-left: 66px;
+}
+    
+.header-first{
+    padding: 134px 0 112px;
+    position: relative;
+    height: 100vh;
+}
+    
+.header-first__container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1517px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+    
+    .header-first__main{
+    margin-top: auto;
+}
+    
+    .header-first__main-title{
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+    
+.header-first__main-description{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 50px;
+}
+    
+.header-first__btns{
+    margin-top: 70px;
+    display: flex;
+}
+    
+.header-first__btn-application{
+    color: #2D0000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFC806;
+    border-radius: 75px;
+    width: 309px;
+    height: 75px;
+    transition: .5s;
+}
+    
+.header-first__btn-application:hover{
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 0 30px #FFFBFB;
+    transition: .5s;
+}
+
+.header-first__btn-video{
+    display: flex;
+    align-items: center;
+    margin-left: 61px;
+    height: 75px;
+    width: 201px;
+    color: #FFFBFB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    transition: .5s;
+}
+
+.header-first__btn-video:hover{
+    transform: scale(1.2, 1.2);
+    transition: .5s;
+}
+
+.header-first__btn-text{
+    margin-left: 20px;
+    max-width: 108px;
+    width: 100%;
+}
+
+.header-first__social{
+    margin: 120px 0 auto;
+}
+
+.header-first__social-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-first__social-container{
+    margin-top: 24px;
+}
+
+.header-first__social-list{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.header-first__social-item:not(:first-child){
+    margin-left: 45px;
+}
+
+.header-first__social-item{
+    transition: .5s;
+}
+
+.header-first__social-item:hover{
+    transform: scale(1.4, 1.4);
+    transition: .5s;
+}
+
+.header-first__cards{
+    display: flex;
+    position: absolute;
+    right: 7.892%;
+    bottom: 9.484%;
+    max-width: 897px;
+    width: 100%;
+}
+
+.header-first__card{
+    position: relative;
+    height: 200px;
+    width: 278px;
+    transition: .5s;
+}
+
+.header-first__card:not(:first-child){
+    margin-left: 32px;
+}
+
+.header-first__card:hover{
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+
+.island{
+    background: url(../img/card1.png) center / cover no-repeat;
+}
+
+.dolomits{
+    background: url(../img/card2.png) center / cover no-repeat;
+}
+
+.norway{
+    background: url(../img/card3.png) center / cover no-repeat;
+}
+
+.card-number{
+    position: absolute;
+    top: 9%;
+    left: 8.992%;
+    /* display: block; */
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.card-description{
+    position: absolute;
+    bottom: 12.5%;
+    left: 8.992%;
+    display: block;
+    max-width: 104px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header-first__card-link{
+    position: absolute;
+    right: 8.992%;
+    bottom: 22.5%;
+    transition: .5s;
+}
+
+.header-first__card-link:hover{
+    transform: scale(1.2, 1.2);
+    transition: .5s;
+}
